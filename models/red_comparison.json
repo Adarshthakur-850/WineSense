@@ -1,0 +1,166 @@
+{
+    "Random Forest": {
+        "accuracy": 0.796875,
+        "precision": 0.823170731707317,
+        "recall": 0.7894736842105263,
+        "f1_score": 0.8059701492537313,
+        "roc_auc": 0.8879076886847993,
+        "latency_ms": 297.987699508667,
+        "confusion_matrix": {
+            "tn": 120,
+            "fp": 29,
+            "fn": 36,
+            "tp": 135
+        },
+        "feature_importances": {
+            "fixed acidity": 0.06853701616229602,
+            "volatile acidity": 0.11450142161180622,
+            "citric acid": 0.05867016132512687,
+            "residual sugar": 0.05381738430156629,
+            "chlorides": 0.07004254302503132,
+            "free sulfur dioxide": 0.05583887467974104,
+            "total sulfur dioxide": 0.09985735405013335,
+            "density": 0.0911173807653502,
+            "pH": 0.06151149365015009,
+            "sulphates": 0.14139934350854214,
+            "alcohol": 0.18470702692025653
+        }
+    },
+    "XGBoost": {
+        "accuracy": 0.815625,
+        "precision": 0.8414634146341463,
+        "recall": 0.8070175438596491,
+        "f1_score": 0.8238805970149253,
+        "roc_auc": 0.8888496408807253,
+        "latency_ms": 267.9862976074219,
+        "confusion_matrix": {
+            "tn": 123,
+            "fp": 26,
+            "fn": 33,
+            "tp": 138
+        },
+        "feature_importances": {
+            "fixed acidity": 0.0796087309718132,
+            "volatile acidity": 0.08802047371864319,
+            "citric acid": 0.05959673970937729,
+            "residual sugar": 0.046472929418087006,
+            "chlorides": 0.06697667390108109,
+            "free sulfur dioxide": 0.052238501608371735,
+            "total sulfur dioxide": 0.10299056768417358,
+            "density": 0.06261958926916122,
+            "pH": 0.06571490317583084,
+            "sulphates": 0.13567067682743073,
+            "alcohol": 0.2400902360677719
+        }
+    },
+    "Decision Tree": {
+        "accuracy": 0.728125,
+        "precision": 0.7530120481927711,
+        "recall": 0.7309941520467836,
+        "f1_score": 0.7418397626112759,
+        "roc_auc": 0.7843321951410966,
+        "latency_ms": 9.330272674560547,
+        "confusion_matrix": {
+            "tn": 108,
+            "fp": 41,
+            "fn": 46,
+            "tp": 125
+        },
+        "feature_importances": {
+            "fixed acidity": 0.028221287684266492,
+            "volatile acidity": 0.09808623380798873,
+            "citric acid": 0.044548835804202234,
+            "residual sugar": 0.051326635901518175,
+            "chlorides": 0.04468329371272476,
+            "free sulfur dioxide": 0.042299747013247395,
+            "total sulfur dioxide": 0.07645274301258281,
+            "density": 0.08005694456476949,
+            "pH": 0.058565586697172406,
+            "sulphates": 0.13065000314410197,
+            "alcohol": 0.34510868865742556
+        }
+    },
+    "SVM": {
+        "accuracy": 0.76875,
+        "precision": 0.8169934640522876,
+        "recall": 0.7309941520467836,
+        "f1_score": 0.7716049382716049,
+        "roc_auc": 0.8408297028925782,
+        "latency_ms": 277.7550220489502,
+        "confusion_matrix": {
+            "tn": 121,
+            "fp": 28,
+            "fn": 46,
+            "tp": 125
+        },
+        "feature_importances": {
+            "fixed acidity": 0.09090909090909091,
+            "volatile acidity": 0.09090909090909091,
+            "citric acid": 0.09090909090909091,
+            "residual sugar": 0.09090909090909091,
+            "chlorides": 0.09090909090909091,
+            "free sulfur dioxide": 0.09090909090909091,
+            "total sulfur dioxide": 0.09090909090909091,
+            "density": 0.09090909090909091,
+            "pH": 0.09090909090909091,
+            "sulphates": 0.09090909090909091,
+            "alcohol": 0.09090909090909091
+        }
+    },
+    "Logistic Regression": {
+        "accuracy": 0.740625,
+        "precision": 0.7682926829268293,
+        "recall": 0.7368421052631579,
+        "f1_score": 0.7522388059701492,
+        "roc_auc": 0.8241689234271361,
+        "latency_ms": 19.44565773010254,
+        "confusion_matrix": {
+            "tn": 111,
+            "fp": 38,
+            "fn": 45,
+            "tp": 126
+        },
+        "feature_importances": {
+            "fixed acidity": 0.0773763541904993,
+            "volatile acidity": 0.15581649167449055,
+            "citric acid": 0.07313241067589508,
+            "residual sugar": 0.03226188688946427,
+            "chlorides": 0.0450361502700863,
+            "free sulfur dioxide": 0.064781227013585,
+            "total sulfur dioxide": 0.14831941653691944,
+            "density": 0.04094271299707009,
+            "pH": 0.009834426360826792,
+            "sulphates": 0.1286130139235793,
+            "alcohol": 0.2238859094675838
+        }
+    },
+    "Neural Network": {
+        "accuracy": 0.7875,
+        "precision": 0.8047337278106509,
+        "recall": 0.7953216374269005,
+        "f1_score": 0.8,
+        "roc_auc": 0.8403391027905334,
+        "latency_ms": 2309.9987506866455,
+        "confusion_matrix": {
+            "tn": 116,
+            "fp": 33,
+            "fn": 35,
+            "tp": 136
+        },
+        "feature_importances": {
+            "fixed acidity": 0.09090909090909091,
+            "volatile acidity": 0.09090909090909091,
+            "citric acid": 0.09090909090909091,
+            "residual sugar": 0.09090909090909091,
+            "chlorides": 0.09090909090909091,
+            "free sulfur dioxide": 0.09090909090909091,
+            "total sulfur dioxide": 0.09090909090909091,
+            "density": 0.09090909090909091,
+            "pH": 0.09090909090909091,
+            "sulphates": 0.09090909090909091,
+            "alcohol": 0.09090909090909091
+        }
+    },
+    "last_trained": "2026-05-20 23:53:21",
+    "wine_type": "red"
+}
