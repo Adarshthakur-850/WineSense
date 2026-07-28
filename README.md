@@ -2,6 +2,11 @@
 
 An end-to-end machine learning platform that predicts and explains wine quality using physicochemical features and multiple ML classifiers.
 
+<img width="1336" height="1033" alt="Screenshot 2026-05-21 022614" src="https://github.com/user-attachments/assets/a5f3b345-de3f-49a4-8594-c062dfd37c12" />
+
+<img width="1324" height="983" alt="Screenshot 2026-05-21 022637" src="https://github.com/user-attachments/assets/61cf67a6-e0d0-414b-b5b9-af326c065049" />
+
+
 ## 🍷 Key Features
 - **Dual Varieties Toggle**: Classifies and optimizes both Red and White wine varieties using tailored ML classifiers.
 - **Explainable AI (XAI)**: Displays real-time feature attribution charts representing which parameters positively or negatively impacted the prediction.
